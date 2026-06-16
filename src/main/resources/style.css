@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.trip {
+    color: #ff6600;
+}
+
+.pillar {
+    color: white;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.services {
+    background-color: white;
+    margin: 30px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.services h2 {
+    color: #004080;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.card {
+    background-color: #e9f2ff;
+    padding: 15px;
+    border-radius: 8px;
+    width: 48%;
+}
+
+.card h3 {
+    color: #004080;
+}
+
+.card p {
+    color: #333;
+}
